@@ -6,7 +6,8 @@
   "type": "module",
   "files": ["dist"],
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "package": "npm run build && npm pack"
   },
   "keywords": ["typescript", "utils"],
   "author": "Vinicius Gonçalves",
