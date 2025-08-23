@@ -1,17 +1,16 @@
 {
   "name": "ts-utils",
   "version": "1.0.0",
-  "main": "index.js",
-  "types": "dist/vector-utils.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "files": ["dist"],
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["typescript", "utils"],
+  "author": "Vinicius Gonçalves",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "typescript": "^5.9.2"
   }
