@@ -4,10 +4,9 @@
     "module": "ES2020",
     "declaration": true,
     "outDir": "dist",
+    "rootDir": "src",
     "strict": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "forceConsistentCasingInFileNames": true
+    "esModuleInterop": true
   },
-  "include": ["src/**/*", "index.ts"]
+  "include": ["src/**/*"]
 }
