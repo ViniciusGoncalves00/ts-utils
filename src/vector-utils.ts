@@ -14,8 +14,8 @@ export namespace VectorUtils {
     	return t >= 0 ? t : null;
 	}
 
-	export function isParallel(dot: number, epsilon = 1e-6): boolean {
-		return Math.abs(dot) < epsilon ? true :  false;
+	export function isParallel(dot: number, tolerance = 1e-6): boolean {
+		return Math.abs(dot) < tolerance ? true :  false;
 	}
 
 	export function dot(a: [number, number, number], b: [number, number, number]): number {
