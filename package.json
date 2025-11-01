@@ -1,18 +1,22 @@
 {
-  "name": "ts-math-utils",
+  "name": "@viniciusgoncalves/ts-utils",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "type": "module",
-  "files": ["dist"],
+  "description": "Utility for various uses",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
-    "package": "npm run build && npm pack"
+    "prepublishOnly": "npm run build"
   },
-  "keywords": ["typescript", "utils"],
+  "keywords": ["typescript", "math", "utils", "vector"],
   "author": "Vinicius Gonçalves",
-  "license": "ISC",
+  "license": "MIT",
+  "type": "module",
   "devDependencies": {
-    "typescript": "^5.9.2"
+    "typescript": "^5.8.3"
   }
 }
